@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Artwork Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            padding: 0.5rem;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 1rem auto;
+            padding: 0;
+        }
+        .gallery img {
+            margin: 0.5rem;
+            border: 3px solid #ddd;
+            border-radius: 8px;
+            max-width: 300px;
+            max-height: 300px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            border-color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Artwork Gallery</h1>
+        <p>Explore my collection of artwork!</p>
+    </header>
+    <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="gallery" class="gallery">
+            <!-- Add your artwork images here -->
+            <img src="art1.jpg" alt="Artwork 1">
+            <img src="art2.jpg" alt="Artwork 2">
+            <img src="art3.jpg" alt="Artwork 3">
+            <img src="art4.jpg" alt="Artwork 4">
+            <img src="art5.jpg" alt="Artwork 5">
+        </section>
+        <section id="contact" style="text-align: center; padding: 1rem;">
+            <h2>Contact Me</h2>
+            <p>If you're interested in my work, feel free to reach out!</p>
+            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 
